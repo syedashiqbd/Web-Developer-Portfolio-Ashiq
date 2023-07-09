@@ -29,6 +29,9 @@ p {
 /* Header Style */
 .header {
   background-color: #fff8f3;
+  background-image: url("./images/header_bg.png"), url("./images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, bottom left;
 }
 .single_letter_color {
   color: #fd6e0a;
@@ -38,6 +41,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 nav > h3 {
   color: #181818;
@@ -57,10 +61,10 @@ nav li a {
   color: #474747;
 }
 .banner {
-  padding: 185px 0;
   display: flex;
   align-items: center;
 }
+
 .banner_info {
   width: 50%;
 }
@@ -86,4 +90,9 @@ nav li a {
   border: 1px solid #fd6e0a;
   background: transparent;
   color: #fd6e0a;
+}
+.profil_pic {
+  width: 584px;
+  position: relative;
+  left: 200px;
 }
