@@ -60,6 +60,9 @@ nav li a {
   font-size: 20px;
   color: #474747;
 }
+
+/* banner Style */
+
 .banner {
   display: flex;
   align-items: center;
@@ -96,6 +99,7 @@ nav li a {
   position: relative;
   left: 200px;
 }
+/*  About me section Style  */
 .about_me {
   border-radius: 10px;
   background: #fff8f3;
@@ -123,4 +127,33 @@ nav li a {
 }
 .about_me_btm_info h3 {
   color: #474747;
+}
+
+/* Skill Section Style */
+.skills {
+  margin-top: 130px;
+  text-align: center;
+}
+.skills h2 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+.skills > p {
+  padding: 0 150px;
+  margin: 40px 0;
+}
+.skill_btm_section {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.skill_btm_info {
+  text-align: left;
+  padding: 30px 35px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill_btm_info h3 {
+  margin: 20px 0;
 }
