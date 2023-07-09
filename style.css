@@ -11,6 +11,10 @@ body {
 }
 
 /* Shared Styles */
+.container {
+  max-width: 1140px;
+  margin-inline: auto;
+}
 p {
   color: #757575;
 }
@@ -21,9 +25,12 @@ p {
   color: white;
   border: 0;
 }
-.container {
-  max-width: 1140px;
-  margin-inline: auto;
+
+.banner_info button,
+.resume_section_btn button {
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /* Header Style */
@@ -84,11 +91,7 @@ nav li a {
 .banner_info p {
   margin-bottom: 30px;
 }
-.banner_info button {
-  margin-right: 30px;
-  font-size: 20px;
-  font-weight: 700;
-}
+
 .banner_info button:last-child {
   border: 1px solid #fd6e0a;
   background: transparent;
@@ -118,9 +121,6 @@ nav li a {
 .about_me_btm_section {
   display: flex;
   justify-content: space-between;
-}
-.about_me_btm_info {
-  font-size: 18px;
 }
 .about_me_btm_info h4 {
   color: #757575;
@@ -156,4 +156,59 @@ nav li a {
 }
 .skill_btm_info h3 {
   margin: 20px 0;
+}
+
+/* Resum section style */
+.educations_experience_area {
+  display: flex;
+  gap: 24px;
+}
+.resume_section h2 {
+  margin: 130px 0 100px;
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.educations_area > h3,
+.experience_area > h3 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
+.degree,
+.role {
+  border-bottom: 1px solid #d1d1d1;
+  padding-right: 80px;
+  margin-top: 30px;
+}
+.degree:last-child,
+.role:last-child {
+  border-bottom: none;
+}
+
+.degree > h4,
+.role > h4 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+.degree > h5,
+.role > h5 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.degree > p,
+.role > p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 30px 0;
+}
+.resume_section_btn {
+  margin: 50px 0 110px;
+  display: flex;
+  justify-content: center;
 }
